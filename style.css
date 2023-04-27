@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-nav .nav-link.active {
+    color: #fff;
+    background-color: gray;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+.carousel-item img {
+    position: relative;
+    height: 400px;
+}
+
+
+section {
+    height: 100vh;
+    background-image: linear-gradient(to right, #414141, #666666, #8d8d8d, #b6b6b6, #e1e1e1);
+    padding-top: 30px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: #fff;
+}
+
+h2 {
+    text-align: center;
+}
+
+.card {
+    max-width: 300px;
+    max-height: 380px;
+}
