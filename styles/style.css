@@ -18,10 +18,12 @@
     height: 400px;
 }
 
+body{
+    background-image: linear-gradient(to right, #414141, #666666, #8d8d8d, #b6b6b6, #e1e1e1);
+}
 
 section {
     height: 100vh;
-    background-image: linear-gradient(to right, #414141, #666666, #8d8d8d, #b6b6b6, #e1e1e1);
     padding-top: 30px;
 }
 
@@ -35,6 +37,7 @@ header {
 
 h2 {
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .card {
